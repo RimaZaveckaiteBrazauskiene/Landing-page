@@ -1,0 +1,119 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #004D40;
+  line height: 50px;
+  padding: 14px 100px;
+  position: fixed;
+  z-index: 1;
+  }
+nav ul {
+  float: left;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+nav ul li a {
+  color: #FAFAFA;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding: 0px 82px;
+}
+nav ul li a:hover {
+  color: #C8E6C9;
+}  
+nav ul li .active{
+  color: #C8E6C9;
+}
+img {
+  width: 20%;
+  height: auto;
+  position: absolute;
+  image-align: left;
+  top: 120px;
+  right: 80px;
+  border-radius: 90%;
+}
+.about {
+  font-family: Montserrat, sans-serif;
+  color: 000000;
+}
+.hello {
+  font-family: Montserrat, sans-serif;
+  font-size: 40px;
+  left: 100px;
+  top: 200px;
+  padding: 60px;
+  margin-left: 20%;
+}
+ .about .name {
+  font-size: 30px;
+  padding: 20px;
+  margin-left: 7%;
+}
+.about .description {
+  font-size: 18px;
+  font-weight: 400%;
+  text-align: justify;
+  margin-right: 32%;
+  margin-left: 5%;
+}
+#container {
+  margin-left: 5%;
+}
+iframe {
+  width="640px"
+  height="360px"
+  position: relative;
+  left: 100px;
+}
+}
+footer {
+    position: relative;
+}
+p.copyright {
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
+    text-align: center;  
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+
+
+
